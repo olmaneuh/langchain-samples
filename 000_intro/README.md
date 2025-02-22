@@ -12,7 +12,7 @@ This project is a simple Todo List App generator built with [LangChain](https://
 
 2. Set up environment variables:
 
-   Create a `.env` file in the project directory `000_intro/` with the following environment variables.
+   Create a `.env` file in the root directory of the application with the following environment variables.
 
    ```env
    OPENAI_API_KEY=CHANGE_FOR_YOUR_OPENAI_API_KEY
