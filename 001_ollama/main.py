@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 from langchain.prompts.prompt import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import ChatOllama
@@ -39,9 +38,6 @@ def create_todo_list(user_info: str) -> str:
 
 def main() -> None:
     """Main function to run the application."""
-
-    # load environment variables
-    load_dotenv()
 
     # create todo list
     todo_list = create_todo_list(USER_INFO)
